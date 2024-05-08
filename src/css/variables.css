@@ -6,4 +6,9 @@
     --gray-color: #f3f5f6;
     --white-color: #fff;
     --main-text-color: rgba(18, 20, 23, 0.5);
+    --icon-transition: 300ms ease-in;
+    --font-weight-primary-bold: 700;
+    --font-weight-primary-medium: 600;
+    --font-weight-primary-regular: 400;
+    --items: 1;
 }

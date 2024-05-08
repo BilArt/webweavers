@@ -1,3 +1,102 @@
 <section class="application" id="application">
-
+    <div class="container">
+      <h2 class="section-title">
+        Leave an <span class="section-title-underline">application</span>
+      </h2>
+      <p class="supporting-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <div class="application-body">
+        <div class="application-ad">
+          <div class="application-ad__img"></div>
+          <div class="application-ad__textblock">
+            <p class="application-ad__text">
+              <span class="application-ad__text_headline">1000</span>of our online
+              English language lessons! This journey has been full of discovery,
+              growth and unforgettable moments, and we are happy to share this
+              joyful event with you.
+            </p>
+          </div>
+          <p></p>
+        </div>
+        <form class="application__form">
+          <div class="application-form-field">
+            <input
+              class="application-form-input"
+              type="text"
+              id="contact-name"
+              name="contact-name"
+              placeholder="Name"
+              pattern="[a-zA-Zа-яА-ЯЇїІі\s]*"
+              required>
+          </div>
+  
+          <div class="application-form-field">
+            <input
+              class="application-form-input"
+              type="email"
+              id="contact-email"
+              name="contact-email"
+              placeholder="Email"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              required>
+          </div>
+  
+          <div class="application-form-field">
+            <input
+              class="application-form-input"
+              type="tel"
+              id="contact-phone"
+              name="contact-phone"
+              placeholder="Phone"
+              pattern="[0-9]*"
+              required>
+          </div>
+  
+          <div class="application-form-field">
+            <textarea
+              name="contact-comment"
+              id="contact-comment"
+              cols="30"
+              rows="10"
+              class="application-form-input application-form-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <fieldset class="radio-buttons">
+            <legend class="radio-legend">Choose a teacher</legend>
+            <ul class="radio-buttons__box">
+              <li class="radio-buttons__box_item">
+                <input class="radio-btn-item" type="radio" id="teacher1" name="teachers" value="Maria" checked="checked">
+                <label class="radio-label" for="teacher1">Maria</label>
+              </li>
+              <li class="radio-buttons__box_item">
+                <input class="radio-btn-item" type="radio" id="teacher2" name="teachers" value="Artem">
+                <label class="radio-label" for="teacher2">Artem</label>
+              </li>
+              <li class="radio-buttons__box_item">
+                <input class="radio-btn-item" type="radio" id="teacher3" name="teachers" value="Ilona">
+                <label class="radio-label" for="teacher3">Ilona</label>
+              </li>
+              <li class="radio-buttons__box_item">
+                <input class="radio-btn-item"
+                  type="radio"
+                  id="teacher4"
+                  name="teachers"
+                  value="Volodymyr">
+                <label class="radio-label" for="teacher4">Volodymyr</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="application-form-btn lessons-item-link" type="submit">
+            Send
+          </button>
+          <span class="application-form-privacy-statement">By clicking on “Send” button, you agree to our
+            <a href="#" class="application-form-privacy-link">Privacy Policy</a>, and allow
+            Promodo to use this information for marketing purposes.
+          </span>
+        </form>
+      </div>
+    </div>
 </section>
