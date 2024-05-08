@@ -7,9 +7,15 @@ body {
   color: var(--main-text-color);
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+.main-btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71429;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 64px;
+  color: var(--white-color);
+  background-color: var(--green-color);
 }
 
 h1 {
@@ -34,6 +40,11 @@ h2 {
   body {
     font-size: 18px;
     line-height: 1.66667;
+  }
+
+  .main-btn {
+    font-size: 18px;
+    line-height: 1.55556;
   }
 
   h1 {
