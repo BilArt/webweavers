@@ -7,6 +7,13 @@ body {
   color: var(--main-text-color);
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .main-btn {
   font-weight: 700;
   font-size: 14px;
@@ -47,6 +54,11 @@ h2 {
     line-height: 1.55556;
   }
 
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   h1 {
     font-size: 60px;
     line-height: 1.1666;
@@ -60,4 +72,9 @@ h2 {
 }
 
 @media (min-width: 1158px) {
+  .container {
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 1158px;
+  }
 }
