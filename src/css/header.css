@@ -2,6 +2,38 @@
     display: none;
   }
 
+.header .container {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+.header-logo {
+    display: flex;
+    align-items: left;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--black-color);
+  }
+
+.header .logo-excellence {
+    color: var(--green-color);
+}
+
+@media only screen and (min-width: 1280px) {
+    .header .container {
+        margin: 20px 128px;
+    }
+}
+
   @media only screen and (max-width: 1279px) {
     .header-menu-list {
       display: none;
@@ -12,8 +44,32 @@
       }
   }
 
-  @media only screen and (min-width: 1280px) {
+  .menu-toggle {
+    min-height: 32px;
+    min-width: 32px;
+    display: flex;
+    align-items: center;
+  
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .menu-toggle {
+        min-height: 28px;
+        min-width: 40px;
+      }
+}
+
+@media only screen and (min-width: 1280px) {
     .menu-toggle {
       display: none;
     }
+
+    .menu-container {
+        display: none;
+      }
   }
