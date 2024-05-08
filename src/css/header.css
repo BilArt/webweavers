@@ -7,6 +7,8 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-menu {
@@ -28,21 +30,74 @@
     color: var(--green-color);
 }
 
-@media only screen and (min-width: 1280px) {
-    .header .container {
-        margin: 20px 128px;
-    }
+.header-menu-link{
+    font-weight: 600;
+    line-height: 129%;
+    min-width: 411px;
+    min-height: 18px;
+    color: var(--black-color);
+}
+
+.list-socials {
+    display: flex;
+    gap: 12px;
+    margin-left: 137.5px;
+}
+
+.socials-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(18, 20, 23, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+    fill: var(--black-color);
+}
+
+.social-icons {
+    opacity: 0.8;
+}
+
+.socials-links:hover,
+.socials-links:focus {
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: var(--green-color);
+}
+
+.socials-links:hover,
+.socials-links:focus {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--green-color);
 }
 
   @media only screen and (max-width: 1279px) {
     .header-menu-list {
       display: none;
-    }
-
+      }
     .header .list-socials {
         display: none;
       }
   }
+
+  @media only screen and (min-width: 1280px) {
+
+    .header .container {
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header-menu-list {
+        display: flex;
+        gap: 20px;
+    }
+}
 
   .menu-toggle {
     min-height: 32px;
@@ -65,6 +120,17 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    .header .container {
+        display: flex;
+        align-items: center;
+        padding-top: 8.5px;
+        padding-bottom: 8.5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 128px;
+        margin-right: 128px;
+    }
+
     .menu-toggle {
       display: none;
     }
