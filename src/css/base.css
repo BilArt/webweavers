@@ -1,0 +1,52 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71429;
+  font-style: normal;
+  color: var(--main-text-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.05263;
+  color: var(--white-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+  color: var(--black-color);
+}
+
+@media (min-width: 375px) {
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    line-height: 1.66667;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 1.1666;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media (min-width: 1158px) {
+}
