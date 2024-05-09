@@ -20,11 +20,73 @@
     />
     
     <script type="module" crossorigin src="/webweavers/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/webweavers/assets/index-fdd8ca75.css">
+    <link rel="stylesheet" href="/webweavers/assets/index-1997172c.css">
   </head>
   <body>
     <header class="header">
-  
+    <div class="container">
+        <nav class="header-menu">
+            <a class="header-logo" href="#">english<span class="logo-excellence">excellence</span>.
+            </a> 
+
+            <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Open menu button"
+          >
+            <svg class="menu-toggle-icon" width="32" height="32">
+              <use href="/webweavers/assets/favicon-7c659405.svg#icon-Nav"></use>
+            </svg>
+          </button>
+
+            <ul class="header-menu-list">
+                <li><a class="header-menu-link" href="#about">About us</a></li>
+                <li><a class="header-menu-link" href="#lessons">Our lessons</a></li>
+                <li><a class="header-menu-link" href="#teachers">Teachers</a></li>
+                <li><a class="header-menu-link" href="#reviews">Reviews</a></li>
+                <li><a class="header-menu-link" href="#contacts">Contact us</a></li>
+          </ul>
+        </nav>
+
+       <ul class="header-list-socials">
+        <li>
+          <a 
+          class="header-socials-links" 
+          href="https://www.facebook.com/goITclub/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          aria-label="Link to facebook.com">
+            <svg class="header-social-icons" width="28" height="28">
+              <use href="/webweavers/assets/favicon-7c659405.svg#icon-facebook"></use>
+            </svg>
+          </a>
+         </li>
+         <li>
+          <a 
+          class="header-socials-links" 
+          href="https://www.instagram.com/goitclub/" 
+          target="_blank" rel="noopener noreferrer" 
+          aria-label="Link to instagram.com">
+            <svg class="header-social-icons" width="28" height="28">
+              <use href="/webweavers/assets/favicon-7c659405.svg#icon-instagram"></use>
+            </svg>
+          </a>
+         </li>
+         <li>
+          <a 
+          class="header-socials-links" 
+          href="https://www.youtube.com/c/GoIT" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          aria-label="Link to youtube.com">
+            <svg class="header-social-icons" width="28" height="28">
+              <use href="/webweavers/assets/favicon-7c659405.svg#icon-youtube"></use>
+            </svg>
+          </a>
+         </li>
+      </ul>
+    </div>
 </header>
 
     <main>
@@ -90,7 +152,45 @@
 </footer>
 
 
-    
+    <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle-close js-close-menu" aria-label="Close menu button">
+      <svg class="toggle-icon-close" width="32" height="32">
+        <use href="/webweavers/assets/favicon-7c659405.svg#icon-x"></use>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu-nav">
+      <li><a class="nav-link" href="#about">About us</a></li>
+      <li><a class="nav-link" href="#lessons">Our lessons</a></li>
+      <li><a class="nav-link" href="#teachers">Teachers</a></li>
+      <li><a class="nav-link" href="#reviews">Reviews</a></li>
+      <li><a class="nav-link" href="#contacts">Contact us</a></li>
+    </ul>
+
+    <ul class="list-socials">
+      <li>
+        <a class="socials-links" href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer" aria-label="Link to facebook.com">
+          <svg class="socials-icons" width="26" height="26">
+            <use href="/webweavers/assets/favicon-7c659405.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="socials-links" href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer" aria-label="Link to instagram.com">
+          <svg class="socials-icons" width="26" height="26">
+            <use href="/webweavers/assets/favicon-7c659405.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="socials-links" href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer" aria-label="Link to youtube.com">
+          <svg class="socials-icons" width="26" height="26">
+            <use href="/webweavers/assets/favicon-7c659405.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
 
     
   </body>
