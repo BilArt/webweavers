@@ -6,4 +6,31 @@
     --gray-color: #f3f5f6;
     --white-color: #fff;
     --main-text-color: rgba(18, 20, 23, 0.5);
+    --icon-transition: 300ms ease-in;
+    --font-weight-primary-bold: 700;
+    --font-weight-primary-medium: 600;
+    --font-weight-primary-regular: 400;
+    --items: 1;
+    /* Paddings */
+    --section-padding: 40px;
+    /* Form */
+    --input-height: 50px;
+    --textarea-height: 94px;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        /* Paddings */
+        --section-padding: 50px;
+        /* Form */
+        --input-height: 56px;
+        --textarea-height: 104px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        /* Paddings */
+        --section-padding: 75px;
+    }
 }
