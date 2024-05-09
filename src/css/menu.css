@@ -35,11 +35,11 @@
   }
 
 .mobile-menu-nav{
-  width: 79px;
-  height: 170px;
   margin-top: auto;
   margin-bottom: auto;
+  text-align: center;
 }
+
 .mobile-menu-nav li:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -66,6 +66,15 @@ font-weight: 600;
   cursor: pointer;
 }
 
+@media only screen and (min-width: 768px) {
+  .menu-toggle-close {
+    top: 20px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .list-socials {
   display: flex;
   flex-direction: row;
@@ -85,4 +94,11 @@ font-weight: 600;
   height: 42px;
   fill: var(--white-color);
   opacity: 0.8;
+}
+
+@media only screen and (min-width: 768px) {
+  .socials-links {
+    width: 44px;
+    height: 44px;
+  }
 }
