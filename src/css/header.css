@@ -36,6 +36,7 @@
     min-width: 411px;
     min-height: 18px;
     color: var(--black-color);
+    position: relative;
 }
 
 .list-socials {
@@ -138,4 +139,21 @@
     .menu-container {
         display: none;
       }
-  }
+
+      .header .header-menu-link::after {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 37px;
+        height: 2px;
+        background-color: transparent;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .header .header-menu-link:hover::after,
+      .header .header-menu-link:focus::after {
+        background-color: var(--green-color);
+      }
+    }
