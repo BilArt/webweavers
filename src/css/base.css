@@ -29,6 +29,10 @@ body {
   background-color: var(--green-color);
 }
 
+.main-btn:active {
+  background-color: #38ae5f;
+}
+
 h1 {
   font-weight: 700;
   font-size: 38px;
