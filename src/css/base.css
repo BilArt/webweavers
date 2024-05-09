@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
@@ -23,6 +27,10 @@ body {
   padding: 16px 64px;
   color: var(--white-color);
   background-color: var(--green-color);
+}
+
+.main-btn:active {
+  background-color: #38ae5f;
 }
 
 h1 {
