@@ -1,7 +1,7 @@
 .proposal {
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     overflow: hidden;
-    margin-bottom: 80px;
 }
 
 .proposal>.container {
@@ -129,8 +129,8 @@
 
 @media (min-width: 768px) {
     .proposal {
-        padding: 0 32px;
-        margin-bottom: 100px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .proposal>.container {

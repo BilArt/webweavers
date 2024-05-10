@@ -6,11 +6,6 @@ p {
   color: var(--main-text-color);
 }
 
-.teachers {
-  background: var(--white-color);
-  margin: 50px 0;
-}
-
 .teachers-title {
   margin-bottom: 16px;
   text-align: center;
