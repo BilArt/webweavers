@@ -30,6 +30,10 @@
     display: flex;
 }
 
+.hero .hero-btn {
+    width: 100%;
+}
+
 .hero .to-footer {
     position: absolute;
     display: flex;
