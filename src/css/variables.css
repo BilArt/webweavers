@@ -12,7 +12,7 @@
     --font-weight-primary-regular: 400;
     --items: 1;
     /* Margins */
-    --section-margin: 100px;
+    --section-padding: 40px;
     /* Form */
     --input-height: 50px;
     --textarea-height: 94px;
@@ -20,8 +20,8 @@
 
 @media screen and (min-width: 768px) {
     :root {
-        /* Margins */
-        --section-margin: 50px;
+        /* Paddings */
+        --section-padding: 50px;
         /* Form */
         --input-height: 56px;
         --textarea-height: 104px;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 768px) {
     :root {
-        /* Margins */
-        --section-margin: 75px;
+        /* Paddings */
+        --section-padding: 75px;
     }
 }

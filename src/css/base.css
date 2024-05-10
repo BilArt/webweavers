@@ -27,10 +27,14 @@ body {
   padding: 16px 64px;
   color: var(--white-color);
   background-color: var(--green-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-btn:active {
+.main-btn:active,
+.main-btn:hover,
+.main-btn:focus {
   background-color: #38ae5f;
+  outline: none;
 }
 
 h1 {
@@ -101,7 +105,8 @@ h2 {
 }
 
 .section {
-  margin-bottom: var(--section-margin);
+   padding-top: var(--section-padding);
+   padding-bottom: var(--section-padding);
 }
 
 .section-title {

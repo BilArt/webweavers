@@ -1,7 +1,7 @@
 .proposal {
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     overflow: hidden;
-    margin-bottom: 80px;
 }
 
 .proposal>.container {
@@ -39,20 +39,27 @@
     height: 100%;
     border-radius: 16px;
     z-index: -1;
+    transition: transform 0.5s ease-in-out;
 }
 
 .rotate-0 {
     background: var(--white-color);
 }
 
+.container-bellow-bg-11 {
+    background: rgba(255, 255, 255, 0.50);
+}
+
 .rotate-11 {
     transform: rotate(11deg);
-    background: rgba(255, 255, 255, 0.50);
+}
+
+.container-bellow-bg-9 {
+    background: var(--light-green-color);
 }
 
 .rotate-9 {
     transform: rotate(-9deg);
-    background: var(--light-green-color);
 }
 
 .proposal-books-img {
@@ -104,23 +111,26 @@
 .english-power-item:not(:last-child) {
     margin-bottom: 16px;
 }
-.proposal-btn {    
+
+.proposal-btn {
     width: 100%;
     padding: 14px;
     text-align: center;
     font-size: 14px;
     line-height: 24px;
 }
+
 .proposal-link {
-    display: flex;   
+    display: flex;
     margin: 0 auto;
     max-width: 255px;
+    border-radius: 12px;
 }
 
 @media (min-width: 768px) {
     .proposal {
-        padding: 0 32px;
-        margin-bottom: 100px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .proposal>.container {
@@ -175,16 +185,47 @@
         display: block;
     }
 
+    .books-bounce {
+        animation: bounce 1s ease;
+    }
+
+    @keyframes bounce {
+
+        0%,
+        60%,
+        100% {
+            bottom: 63px;
+        }
+
+        20% {
+            bottom: 93px;
+        }
+
+        40% {
+            bottom: 78px;
+        }
+
+        80% {
+            bottom: 83px;
+        }
+
+        90% {
+            bottom: 70px;
+        }
+    }
+
     .english-power-item-box {
         min-width: 20px;
         height: 20px;
     }
+
     .proposal-link {
-        margin-left: 0;        
+        margin-left: 0;
         max-width: 306px;
     }
+
     .proposal-btn {
-        padding: 16px;       
+        padding: 16px;
         font-size: 18px;
         line-height: 28px;
     }
@@ -228,6 +269,35 @@
     .proposal-books-img {
         bottom: 79px;
         right: 0px;
+    }
+
+    .books-bounce {
+        animation: bounce2 1s ease;
+    }
+
+    @keyframes bounce2 {
+
+        0%,
+        60%,
+        100% {
+            bottom: 79px;
+        }
+
+        20% {
+            bottom: 109px;
+        }
+
+        40% {
+            bottom: 94px;
+        }
+
+        80% {
+            bottom: 99px;
+        }
+
+        90% {
+            bottom: 86px;
+        }
     }
 
     .rotate-11 {
