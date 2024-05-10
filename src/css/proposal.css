@@ -39,20 +39,23 @@
     height: 100%;
     border-radius: 16px;
     z-index: -1;
+    transition: transform 0.5s ease-in-out;
 }
 
 .rotate-0 {
     background: var(--white-color);
 }
-
-.rotate-11 {
-    transform: rotate(11deg);
+.container-bellow-bg-11 {
     background: rgba(255, 255, 255, 0.50);
 }
-
-.rotate-9 {
-    transform: rotate(-9deg);
+.rotate-11 {
+    transform: rotate(11deg);    
+}
+.container-bellow-bg-9 {
     background: var(--light-green-color);
+}
+.rotate-9 {
+    transform: rotate(-9deg);    
 }
 
 .proposal-books-img {
@@ -60,9 +63,8 @@
     width: 214px;
     position: absolute;
     bottom: 63px;
-    right: -48px;
+    right: -48px;    
 }
-
 .english-power-title {
     color: var(--black-color);
     font-size: 20px;
@@ -172,7 +174,18 @@
     }
 
     .proposal-books-img {
-        display: block;
+        display: block;          
+    }
+    .books-bounce {       
+        animation: bounce 1s ease;
+    }
+    
+    @keyframes bounce {
+        0%, 60%, 100% { bottom: 63px; }
+        20% { bottom: 93px; }
+        40% { bottom: 78px; }
+        80% { bottom: 83px; }
+        90% { bottom: 70px; }
     }
 
     .english-power-item-box {
@@ -228,6 +241,18 @@
     .proposal-books-img {
         bottom: 79px;
         right: 0px;
+    }
+
+    .books-bounce {       
+        animation: bounce2 1s ease;
+    }
+    
+    @keyframes bounce2 {
+        0%, 60%, 100% { bottom: 79px; }
+        20% { bottom: 109px; }
+        40% { bottom: 94px; }
+        80% { bottom: 99px; }
+        90% { bottom: 86px; }
     }
 
     .rotate-11 {
