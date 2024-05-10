@@ -1,17 +1,3 @@
-.title-underlined {
-  display: inline-block;
-}
-
-.title-underlined::after {
-  content: '';
-  display: block;
-  height: 12px;
-  margin-inline: auto;
-  margin-top: -15px;
-  border-radius: 8px;
-  background: #bee8cc;
-}
-
 .about * {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
