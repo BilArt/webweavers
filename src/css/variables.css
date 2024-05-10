@@ -11,8 +11,8 @@
     --font-weight-primary-medium: 600;
     --font-weight-primary-regular: 400;
     --items: 1;
-    /* Paddings */
-    --section-padding: 40px;
+    /* Margins */
+    --section-margin: 100px;
     /* Form */
     --input-height: 50px;
     --textarea-height: 94px;
@@ -20,8 +20,8 @@
 
 @media screen and (min-width: 768px) {
     :root {
-        /* Paddings */
-        --section-padding: 50px;
+        /* Margins */
+        --section-margin: 50px;
         /* Form */
         --input-height: 56px;
         --textarea-height: 104px;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 768px) {
     :root {
-        /* Paddings */
-        --section-padding: 75px;
+        /* Margins */
+        --section-margin: 75px;
     }
 }

@@ -101,7 +101,7 @@ h2 {
 }
 
 .section {
-  padding: var(--section-padding) 0;
+  margin-bottom: var(--section-margin);
 }
 
 .section-title {
