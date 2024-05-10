@@ -104,19 +104,17 @@
 .english-power-item:not(:last-child) {
     margin-bottom: 16px;
 }
-
-.proposal-link {
-    display: flex;
-    border-radius: 12px;
+.proposal-btn {    
+    width: 100%;
     padding: 14px;
-    background: var(--green-color);
-    justify-content: center;
-    color: var(--white-color);
+    text-align: center;
     font-size: 14px;
-    font-weight: 700;
     line-height: 24px;
-    max-width: 255px;
+}
+.proposal-link {
+    display: flex;   
     margin: 0 auto;
+    max-width: 255px;
 }
 
 @media (min-width: 768px) {
@@ -181,13 +179,14 @@
         min-width: 20px;
         height: 20px;
     }
-
     .proposal-link {
-        margin-left: 0;
-        padding: 16px;
+        margin-left: 0;        
+        max-width: 306px;
+    }
+    .proposal-btn {
+        padding: 16px;       
         font-size: 18px;
         line-height: 28px;
-        max-width: 306px;
     }
 }
 
