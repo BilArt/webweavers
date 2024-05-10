@@ -91,6 +91,11 @@
     fill: var(--green-color);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    border-color: rgba(77, 194, 116, 0.1);
+}
+
 .footer-icons {
     fill: var(--white-color);
     opacity: 0.8;    
