@@ -29,8 +29,11 @@ body {
   background-color: var(--green-color);
 }
 
-.main-btn:active {
+.main-btn:active,
+.main-btn:hover,
+.main-btn:focus {
   background-color: #38ae5f;
+  outline: none;
 }
 
 h1 {
