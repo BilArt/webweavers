@@ -96,6 +96,20 @@ h2 {
   margin-bottom: 16px;
 }
 
+.title-underlined {
+  display: inline-block;
+}
+
+.title-underlined::after {
+  content: '';
+  display: block;
+  height: 12px;
+  margin-inline: auto;
+  margin-top: -15px;
+  border-radius: 8px;
+  background: #bee8cc;
+}
+
 .section-description {
   max-width: 709px;
   text-align: center;
