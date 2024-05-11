@@ -49,8 +49,10 @@
 @media screen and (min-width: 768px) {
     .lessons-text {
         margin-bottom: 64px;
-        width: 665px;
+        max-width: 665px;
         line-height: 1.66;
+        font-size: 18px;
+        line-height: 1.67;
     }
 }
 
