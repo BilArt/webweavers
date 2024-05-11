@@ -1,6 +1,13 @@
 @media screen and (max-width: 768px) {
   .application .section-description {
     margin-bottom: 20px;
+    max-width: 586px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66667;
+    text-align: center;
+    color: rgba(18, 20, 23, 0.5);
   }
 }
 
@@ -241,5 +248,11 @@
     display: block;
     visibility: visible;
     opacity: 1;
+  }
+
+  .application .section-description {
+    max-width: 709px;
+    font-size: 18px;
+    line-height: 1.66667;
   }
 }

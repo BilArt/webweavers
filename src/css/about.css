@@ -12,16 +12,26 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: var(--black-color);
+  margin-bottom: 16px;
 }
 
 .about-text {
-  margin-top: 16px;
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
-  line-height: 167%;
+  font-size: 14px;
+  line-height: 1.71429;
   text-align: center;
   color: rgba(18, 20, 23, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .about-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 658px;
+    width: 100%;
+    font-size: 18px;
+  }
 }
 
 .about-flex {
