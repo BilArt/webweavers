@@ -34,6 +34,8 @@
 .hero .to-footer {
     position: absolute;
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
     right: 14px;
     bottom: 14px;
     width: 38px;
@@ -41,8 +43,6 @@
     transition: var(--icon-transition);
     border-radius: 50%;
     border: none;
-    align-items: center;
-    justify-content: center;
     background-color: var(--white-color);
 }
 
