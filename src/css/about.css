@@ -137,7 +137,7 @@
 }
 
 .animation-pulse {
-  animation: pulse 2s infinite;
+  animation: pulse 2s none;
   /* animation: wiggle 2s infinite; */
 }
 
