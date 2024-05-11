@@ -15,6 +15,12 @@
       bodyScrollLock[scrollLockMethod](document.body);
     };
   
+    const links = mobileMenu.querySelectorAll('.nav-link');
+
+    links.forEach(link => {
+        link.addEventListener('click', toggleMenu);
+    });
+
     openMenuBtn.addEventListener('click', toggleMenu);
     closeMenuBtn.addEventListener('click', toggleMenu);
   
