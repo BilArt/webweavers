@@ -26,12 +26,9 @@
     margin-bottom: 40px;
 }
 
-.hero .hero-link {
-    display: flex;
-}
-
-.hero .hero-btn {
+.hero-btn {
     width: 100%;
+    padding: 14px 87px;
 }
 
 .hero .to-footer {
@@ -70,6 +67,10 @@
     .hero {
         margin-bottom: 100px;
         padding: 0 32px;
+    }
+    .hero-btn {
+      width: auto;
+      padding: 16px 64px;
     }
     .hero .container {
         padding: 260px 32px 295px 32px;
