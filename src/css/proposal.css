@@ -120,8 +120,7 @@
     line-height: 24px;
 }
 
-.proposal-link {
-    display: flex;
+.proposal-link {    
     margin: 0 auto;
     max-width: 255px;
     border-radius: 12px;
