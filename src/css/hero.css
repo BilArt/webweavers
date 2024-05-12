@@ -2,8 +2,8 @@
 /* phone */
 
 .hero {
-    margin-bottom: 80px;
     padding: 0 20px;
+    padding-bottom: 40px;
     overflow: hidden;
 }
 
@@ -24,11 +24,6 @@
 
 .hero h1 {
     margin-bottom: 40px;
-}
-
-.hero-btn {
-    width: 100%;
-    padding: 14px 87px;
 }
 
 .hero .to-footer {
@@ -65,12 +60,11 @@
 
 @media only screen and (min-width: 768px) {
     .hero {
-        margin-bottom: 100px;
         padding: 0 32px;
+        padding-bottom: 50px;
     }
     .hero-btn {
-      width: auto;
-      padding: 16px 64px;
+      width: 306px;
     }
     .hero .container {
         padding: 260px 32px 295px 32px;
@@ -99,7 +93,7 @@
 
 @media (min-width: 1158px) {
     .hero {
-        margin-bottom: 96px;
+        padding-bottom: 12px;
         padding: 0;
     }
     .hero .container {
