@@ -18,21 +18,24 @@ body {
   padding-right: 20px;
 }
 
-.main-btn {
+.primary-btn {
+  display: block;
+  width: 100%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71429;
   border: none;
   border-radius: 12px;
-  padding: 16px 64px;
+  padding: 14px;
+  text-align: center;
   color: var(--white-color);
   background-color: var(--green-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-btn:active,
-.main-btn:hover,
-.main-btn:focus {
+.primary-btn:active,
+.primary-btn:hover,
+.primary-btn:focus {
   background-color: #38ae5f;
   outline: none;
 }
@@ -51,6 +54,7 @@ h2 {
   letter-spacing: -0.02em;
   color: var(--black-color);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -65,18 +69,16 @@ h2 {
   overflow: hidden;
 }
 
-@media (min-width: 375px) {
-}
-
 @media (min-width: 768px) {
   body {
     font-size: 18px;
     line-height: 1.66667;
   }
 
-  .main-btn {
+  .primary-btn {
     font-size: 18px;
     line-height: 1.55556;
+    padding: 16px;
   }
 
   .container {
@@ -105,8 +107,8 @@ h2 {
 }
 
 .section {
-   padding-top: var(--section-padding);
-   padding-bottom: var(--section-padding);
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .section-title {
