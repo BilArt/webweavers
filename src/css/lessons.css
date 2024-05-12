@@ -162,6 +162,7 @@
 
 .lessons-item-btn{
     padding: 13px 0;
+    width: 100%;
 }
 
 .lessons-item-btn:nth-child(even){
